@@ -9,8 +9,8 @@ import model.AccountBeans;
 
 public class AccountRegisterDAO {
 	// データベース接続に使用する情報
-		final String jdbcId = "rriaieonpz";
-		final String jdbcPass = "tzBOqGEEeUCv";
+		final String jdbcId = "root";
+		final String jdbcPass = "password";
 		final String jdbcUrl = "jdbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=JST";
 
 	public  AccountRegisterDAO(AccountBeans ab) {
